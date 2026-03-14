@@ -358,4 +358,23 @@ form button:hover {
 /* Responsive Design */
 @media (max-width: 768px) {
     .contact-container { flex-direction: column; }
-}    
+}
+
+@media (max-width: 768px) {
+    @keyframes slide {
+  to { transform: translateX(calc(-50% / var(--count) * (var(--count) - 1))); }
+}
+
+.items2 img {
+  height: 100px;
+  width: auto;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+.items img {
+  height: 100px;
+  width: auto;
+  flex-shrink: 0;
+  border-radius: 15px;
+}
+}
