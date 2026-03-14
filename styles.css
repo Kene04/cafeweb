@@ -383,7 +383,7 @@ form button:hover {
 }
 }
 
-footer {
+.footer {
   height: 60px;
   padding: 20px;
   background-color: #4a3728;
